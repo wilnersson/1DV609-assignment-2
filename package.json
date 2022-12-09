@@ -1,0 +1,24 @@
+{
+  "name": "1dv609-assignment-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilnersson/1DV609-assignment-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilnersson/1DV609-assignment-2/issues"
+  },
+  "homepage": "https://github.com/wilnersson/1DV609-assignment-2#readme",
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  }
+}
