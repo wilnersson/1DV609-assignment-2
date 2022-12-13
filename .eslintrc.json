@@ -7,6 +7,7 @@
   "rules": {
     "no-debugger": "warn",
     "arrow-parens": "warn",
-    "indent": ["warn", 2]
+    "indent": ["warn", 2],
+    "semi": ["error", "never"]
   }
 }
