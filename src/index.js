@@ -1,3 +1,6 @@
-console.log('Hello World!')
+function arrowFunctionTest(arrFunc) {
+  let result = arrFunc(2)
+  console.log(result)
+}
 
-debugger
+arrowFunctionTest((a) => { return a + 1})

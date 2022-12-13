@@ -1,6 +1,11 @@
 {
   "root": true,
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
   "rules": {
-    "no-debugger": "warn"
+    "no-debugger": "warn",
+    "arrow-parens": "warn"
   }
 }
