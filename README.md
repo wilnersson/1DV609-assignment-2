@@ -19,3 +19,7 @@ npm run lint
 ## Details
 
 The exploratory testing consists of rather useless functions in the different modules in the `src` folder.
+
+## Output
+
+When running the linting script, two outputs are created. One instantly visible in your CLI, the other is an hmtl-version saved in the root-folder of the project called `lint_report.html`.
