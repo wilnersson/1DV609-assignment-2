@@ -6,6 +6,7 @@
   },
   "rules": {
     "no-debugger": "warn",
-    "arrow-parens": "warn"
+    "arrow-parens": "warn",
+    "indent": ["warn", 2]
   }
 }

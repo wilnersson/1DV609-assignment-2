@@ -194,3 +194,6 @@ dist
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,node,visualstudiocode
+
+### ESLint ###
+lint_report.html
