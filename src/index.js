@@ -1,7 +1,3 @@
-function noExtraSemiTest() {
-  console.log('I really should not end with semi-colons...');
-}
-
 function arrowFunctionTest(arrFunc) {
   let result = arrFunc(2)
   console.log(result)
