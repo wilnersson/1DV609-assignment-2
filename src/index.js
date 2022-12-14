@@ -1,6 +1,6 @@
 /**
  * The main entrypoint of the application.
- * Please not that this application does not do anything of value.
+ * Please note that this application does not do anything of value.
  * It simply exists to provide a canvas for exploratory testing of ESLint.
  * Se the other files in this folder for test-code.
  */
