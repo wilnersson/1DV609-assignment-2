@@ -1,7 +1,8 @@
-function arrowFunctionTest(arrFunc) {
-  let result = arrFunc(2)
-  console.log(result)
-}
+/**
+ * The main entrypoint of the application.
+ * Please not that this application does not do anything of value.
+ * It simply exists to provide a canvas for exploratory testing of ESLint.
+ * Se the other files in this folder for test-code.
+ */
 
-arrowFunctionTest((a) => { return a + 1})
-arrowFunctionTest(a => { return a * 2})
+console.log('Hey! Thanks for running this app, but it really does not do anything...')
