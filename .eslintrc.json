@@ -8,6 +8,7 @@
     "arrow-parens": "warn",
     "indent": ["warn", 2],
     "semi": ["error", "never"],
-    "constructor-super": "error"
+    "constructor-super": "error",
+    "no-sparse-arrays": "warn"
   }
 }
