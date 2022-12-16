@@ -9,6 +9,11 @@
     "indent": ["warn", 2],
     "semi": ["error", "never"],
     "constructor-super": "error",
-    "no-sparse-arrays": "warn"
+    "no-sparse-arrays": "warn",
+    "no-const-assign": ["error"],
+    "consistent-this": ["error", "self"],
+    "sort-vars": "error",
+    "radix": "error",
+    "no-new":"warn"
   }
 }

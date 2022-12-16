@@ -9,3 +9,5 @@ function noExtraSemiTestPositive() {
 function noExtraSemiBlockEnd() {
   console.log('What about ending blocks with a semi?')
 };
+
+
