@@ -1,19 +1,21 @@
 // This rule is aimed at maintaining consistency and convention by disallowing constructor calls using 
 // the new keyword that do not assign the resulting object to a variable.
 
-function newWithinAssignment(){
-  var a 
-  if (a === new Date()) { 
-    a = false 
-  }
-}
+// new is used correct
 
-var monster = new Monster()
+a === new ObjectInstance()
 
+// here without new, and is then a function call
 Recipie()
 
-function NotUsingAssignment(){
-  new Thing() 
-}
+new Date() // predefined class
 
-new Day()
+// no assigning to a variable
+new variableToObject()
+
+// without variable ??
+= new Instance()
+
+
+
+

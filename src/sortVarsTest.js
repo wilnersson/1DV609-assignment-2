@@ -1,3 +1,7 @@
+/**
+ * Sorting variable rule, in alphabetical order, is case sensitive as default
+ */
+
 var B, a
 
 var [A, B, c] = [1, 2, 3]

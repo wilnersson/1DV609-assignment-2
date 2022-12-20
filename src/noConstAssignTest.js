@@ -1,13 +1,15 @@
-// Disallow reassigning const variables
+/** 
+ *  Not allowing reassigning a value to a const variable
+ */
 
-const d = 0
-console.log(d)
+// assigning av value to a const variable 
+const aVariable = 0
 
-const a = 0
-a = 1
+// reassigning
+aVariable = 10
 
-const b = 0
-b += 1
+
+aVariable += 1
 
 const c = 0
 ++c;
