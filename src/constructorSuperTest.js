@@ -1,3 +1,9 @@
+/**
+ * Module for testing the constructor-super rule.
+ * 
+ * This rule controls the usage of the super() method when using inheritance in classes.
+ */
+
 class TestA {
   #aNumber
 
@@ -6,6 +12,7 @@ class TestA {
   }
 }
 
+// Invalid, missing the super() call.
 class TestB extends TestA {
   #anotherNumber
 
@@ -14,6 +21,7 @@ class TestB extends TestA {
   }
 }
 
+// Valid
 class TestC extends TestA {
   #aString
 
@@ -24,6 +32,7 @@ class TestC extends TestA {
   }
 }
 
+// Valid
 class TestD extends TestA {
   #anotherString
 
