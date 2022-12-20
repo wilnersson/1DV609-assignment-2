@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "lint": "npx eslint --format stylish src/**"
+    "lint": "npx eslint --format stylish src/**",
+    "lint:html": "npx eslint --format html src/** > lint_report.html"
   },
   "repository": {
     "type": "git",

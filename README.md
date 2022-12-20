@@ -22,4 +22,10 @@ The exploratory testing consists of rather useless functions in the different mo
 
 ## Output
 
-When running the linting script, two outputs are created. One instantly visible in your CLI, the other is an hmtl-version saved in the root-folder of the project called `lint_report.html`.
+When running the linting script, the result will be output to the command line using the `stylish` formatting. If you want to create an html-report, use the following command.
+
+```bash
+npm run lint:html
+```
+
+The output will be saved in a file named `lint_report.html` in the project root-folder.
