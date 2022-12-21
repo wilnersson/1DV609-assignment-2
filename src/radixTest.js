@@ -30,5 +30,5 @@ console.log(num) // 253
 var num = parseInt("071", 8)
 console.log(num) // 57
 
-var num = parseFloat("071", 7)
+var num = parseFloat("071")
 console.log(num) // 71

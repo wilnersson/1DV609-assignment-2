@@ -15,6 +15,4 @@ const c = ''
 
 c = 10
 
-let c = c
-
 c = d

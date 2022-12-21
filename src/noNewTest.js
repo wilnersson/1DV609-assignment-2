@@ -14,9 +14,5 @@ new Date() // predefined class
 // no assigning to a variable
 new variableToObject()
 
-// without variable ??
+// without variable, gives syntax error, but still interesting ESLint does not warn.
 = new Instance()
-
-
-
-
